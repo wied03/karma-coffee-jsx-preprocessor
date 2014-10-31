@@ -3,9 +3,16 @@
     "dependencies": {
         "coffee-react-transform": "~2.0"
     },
-    "description": "",
+    "description": "Transforms Coffeescript style JSX files into Coffeescript using offee-react-transform",
     "devDependencies": {
         "chai": "~1.9"
+    },
+    "peerDependencies": {
+        "karma": "~0.12"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wied03/karma-coffee-jsx-preprocessor"
     },
     "license": "ISC",
     "main": "index.js",
@@ -13,5 +20,11 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "keywords": [
+        "karma-plugin",
+        "karma-preprocessor",
+        "cjx",
+        "react"
+    ]
 }
