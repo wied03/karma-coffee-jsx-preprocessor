@@ -1,7 +1,7 @@
 module.exports = function(config) {
     config.set({
         preprocessors: {
-            '**/*.cjsx': ['react-coffee']
+            '**/*.cjsx': ['react-coffee', 'coffee']
         },
         
         reactCoffeePreprocessor: {
