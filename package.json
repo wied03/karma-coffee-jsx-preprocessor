@@ -1,7 +1,7 @@
 {
     "author": "",
     "dependencies": {
-        "coffee-react-transform": "~2.0"
+        "coffee-react-transform": "~2.1"
     },
     "description": "Transforms Coffeescript style JSX files into Coffeescript using offee-react-transform",
     "devDependencies": {
